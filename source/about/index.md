@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2026-03-20 20:40:00
+date: 2026-03-20 00:00:00
 layout: page
 ---
 
