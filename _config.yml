@@ -5,8 +5,12 @@
 # Site
 title: Cypher
 subtitle: ''
-description: 'Personal Blog'
+description: 'Notes on development, cloud computing, and experiments.'
 keywords:
+  - blog
+  - hexo
+  - development
+  - cloud-computing
 author: cypher
 language: zh-CN
 timezone: Asia/Shanghai
@@ -41,9 +45,9 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
-future: true
+future: false
 syntax_highlighter: highlight.js
 highlight:
   line_number: true
@@ -103,3 +107,22 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  content_limit: 200
+  icon: /img/favicon.ico
+
+# Sitemap
+sitemap:
+  path: sitemap.xml

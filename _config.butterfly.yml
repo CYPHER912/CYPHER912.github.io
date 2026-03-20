@@ -1,0 +1,26 @@
+menu:
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-box-archive
+  Categories: /categories/ || fas fa-folder-open
+  Tags: /tags/ || fas fa-tags
+  About: /about/ || fas fa-user
+
+social:
+  fab fa-github: https://github.com/CYPHER912 || GitHub || '#24292e'
+
+favicon: /img/favicon.ico
+
+search:
+  use: local_search
+  placeholder: Search posts
+
+aside:
+  card_author:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/CYPHER912
+  card_announcement:
+    enable: true
+    content: Focused notes on development, cloud computing, and experiments.
